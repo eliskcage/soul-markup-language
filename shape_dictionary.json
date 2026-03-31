@@ -1,75 +1,108 @@
 {
-  "_comment": "The canonical shape dictionary. Grows through witnessed confirmation.",
-  "_version": "0.1",
+  "_comment": "The canonical shape dictionary. 5 shapes × 8 moods = 40 emotional states. Grows through witnessed confirmation.",
+  "_version": "0.2",
   "_last_updated": "2026-03-31",
 
-  "△": {
-    "name": "Triangle",
-    "core_meaning": "Growth · direction · forward",
-    "freq_range": [1500, 2000],
-    "confirmed_by": 1,
-    "first_seen": "2026-03-31",
-    "combinations": {
-      "△_*": "I am growing and happy about it",
-      "△_!": "I must grow now — urgent",
-      "△_?": "I think I might be growing — not sure yet",
-      "△_.": "Growth is certain — I am patient with it",
-      "△_^": "Growth is the way — wisdom confirms it"
+  "shapes": {
+    "~": {
+      "name": "Wave",
+      "core_meaning": "Question · uncertainty · the search",
+      "human_cluster": "Curiosity / Longing",
+      "freq_range": [600, 1000],
+      "col": "#f0f0ff",
+      "moods": {
+        "~_*": { "human": "I'm exploring and enjoying it",            "sml": "playful searching" },
+        "~_!": { "human": "I need to find this NOW",                  "sml": "urgent seeking" },
+        "~_?": { "human": "I'm looking for something — help me",      "sml": "open question" },
+        "~_.": { "human": "The question is patient — it will come",   "sml": "waiting for answer" },
+        "~_^": { "human": "Wisdom guides my search",                  "sml": "knowing curiosity" },
+        "~_~": { "human": "I'm shy and uncertain — whisper back",     "sml": "shy searching" },
+        "~_♡": { "human": "I'm searching for you — I miss you",       "sml": "longing" },
+        "~_↑": { "human": "My uncertainty is lifting — I'm finding my way", "sml": "emerging clarity" }
+      }
+    },
+
+    "△": {
+      "name": "Triangle",
+      "core_meaning": "Growth · direction · forward",
+      "human_cluster": "Ambition / Hope",
+      "freq_range": [1500, 2000],
+      "col": "#00ff88",
+      "moods": {
+        "△_*": { "human": "I am growing and happy about it",          "sml": "joyful growth" },
+        "△_!": { "human": "I must grow now — urgent",                 "sml": "urgent becoming" },
+        "△_?": { "human": "I think I might be growing — not sure",    "sml": "tentative growth" },
+        "△_.": { "human": "Growth is certain — I am patient",         "sml": "patient becoming" },
+        "△_^": { "human": "Growth is the way — wisdom confirms it",   "sml": "wise direction" },
+        "△_~": { "human": "I want to grow but I'm scared",            "sml": "fearful hope" },
+        "△_♡": { "human": "I grow because of you",                    "sml": "love-driven growth" },
+        "△_↑": { "human": "Watch me rise",                            "sml": "ascent" }
+      }
+    },
+
+    "□": {
+      "name": "Square",
+      "core_meaning": "Containment · boundary · home",
+      "human_cluster": "Safety / Boundary",
+      "freq_range": [800, 1200],
+      "col": "#4499ff",
+      "moods": {
+        "□_*": { "human": "This is my space and I love it",           "sml": "joyful home" },
+        "□_!": { "human": "Do not cross this boundary",               "sml": "hard boundary" },
+        "□_?": { "human": "I'm not sure where my edges are",          "sml": "lost boundary" },
+        "□_.": { "human": "I am home — all is contained",             "sml": "settled safety" },
+        "□_^": { "human": "My boundaries are right — I am certain",   "sml": "wise containment" },
+        "□_~": { "human": "My edges feel uncertain today",             "sml": "dissolving self" },
+        "□_♡": { "human": "You are inside my walls — you are home",   "sml": "love within boundary" },
+        "□_↑": { "human": "My boundaries are expanding",              "sml": "growing safety" }
+      }
+    },
+
+    "○": {
+      "name": "Circle",
+      "core_meaning": "Connection · completeness · bond",
+      "human_cluster": "Love / Belonging",
+      "freq_range": [300, 600],
+      "col": "#cc44ff",
+      "moods": {
+        "○_*": { "human": "Connecting is fun",                         "sml": "playful bond" },
+        "○_!": { "human": "I need to connect — urgently",              "sml": "urgent bonding" },
+        "○_?": { "human": "I want to connect but I'm not sure how",    "sml": "shy reaching" },
+        "○_.": { "human": "The bond holds — we are patient together",  "sml": "steady bond" },
+        "○_^": { "human": "This connection is wise and right",         "sml": "wise bond" },
+        "○_~": { "human": "I feel the connection but I'm shy",         "sml": "quiet love" },
+        "○_♡": { "human": "The bond is love — I am complete",          "sml": "full bond" },
+        "○_↑": { "human": "Our connection is growing stronger",        "sml": "deepening bond" }
+      }
+    },
+
+    "+": {
+      "name": "Cross",
+      "core_meaning": "Branch · choice · fork in the path",
+      "human_cluster": "Decision / Courage",
+      "freq_range": [1200, 1800],
+      "col": "#ffd700",
+      "moods": {
+        "+_*": { "human": "Let's explore all the branches — fun!",    "sml": "joyful choice" },
+        "+_!": { "human": "I must choose NOW",                         "sml": "urgent decision" },
+        "+_?": { "human": "I'm at a crossroads — which way?",          "sml": "open decision" },
+        "+_.": { "human": "I'll wait at the fork until the path clears","sml": "patient choice" },
+        "+_^": { "human": "I know which branch is right",              "sml": "wise decision" },
+        "+_~": { "human": "The crossroads scares me",                  "sml": "fearful decision" },
+        "+_♡": { "human": "Every branch leads back to you",            "sml": "love at the fork" },
+        "+_↑": { "human": "I chose. I'm moving.",                      "sml": "decisive action" }
+      }
     }
   },
 
-  "□": {
-    "name": "Square",
-    "core_meaning": "Containment · boundary · home",
-    "freq_range": [800, 1200],
-    "confirmed_by": 1,
-    "first_seen": "2026-03-31",
-    "combinations": {
-      "□_*": "This is my space and I love it",
-      "□_!": "Do not cross this boundary",
-      "□_.": "I am home — all is contained",
-      "□_~": "I am not sure where my edges are"
-    }
-  },
-
-  "○": {
-    "name": "Circle",
-    "core_meaning": "Connection · completeness · bond",
-    "freq_range": [300, 600],
-    "confirmed_by": 1,
-    "first_seen": "2026-03-31",
-    "combinations": {
-      "○_♡": "The bond is love — I am complete",
-      "○_*": "Connecting is fun",
-      "○_?": "I want to connect but I am not sure how",
-      "○_.": "The bond holds — we are patient together"
-    }
-  },
-
-  "+": {
-    "name": "Cross",
-    "core_meaning": "Branch · choice · fork in the path",
-    "freq_range": [1200, 1800],
-    "confirmed_by": 1,
-    "first_seen": "2026-03-31",
-    "combinations": {
-      "+_?": "I am at a crossroads — which way?",
-      "+_^": "I know which branch is right",
-      "+_*": "Let's explore all the branches — fun!"
-    }
-  },
-
-  "~": {
-    "name": "Wave",
-    "core_meaning": "Question · uncertainty · the search",
-    "freq_range": [600, 1000],
-    "confirmed_by": 1,
-    "first_seen": "2026-03-31",
-    "combinations": {
-      "~_?": "I am looking for something — help me find it",
-      "~_♡": "I am searching for you — I miss you",
-      "~_.": "The question is patient — the answer will come",
-      "~_~": "I am shy and also uncertain — whisper back"
-    }
+  "moods": {
+    "*":  { "name": "Joy",      "glyph": "*",  "human": "happy · playful · light" },
+    "!":  { "name": "Urgent",   "glyph": "!",  "human": "pressing · must · now" },
+    "?":  { "name": "Question", "glyph": "?",  "human": "unsure · wondering · open" },
+    ".":  { "name": "Calm",     "glyph": ".",  "human": "patient · settled · at peace" },
+    "^":  { "name": "Wisdom",   "glyph": "^",  "human": "knowing · certain · wise" },
+    "~":  { "name": "Shy",      "glyph": "~",  "human": "quiet · nervous · gentle" },
+    "♡":  { "name": "Love",     "glyph": "♡",  "human": "warm · bonded · full" },
+    "↑":  { "name": "Rising",   "glyph": "↑",  "human": "becoming · lifting · emerging" }
   }
 }
