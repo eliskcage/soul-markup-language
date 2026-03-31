@@ -1,0 +1,75 @@
+{
+  "_comment": "The canonical shape dictionary. Grows through witnessed confirmation.",
+  "_version": "0.1",
+  "_last_updated": "2026-03-31",
+
+  "△": {
+    "name": "Triangle",
+    "core_meaning": "Growth · direction · forward",
+    "freq_range": [1500, 2000],
+    "confirmed_by": 1,
+    "first_seen": "2026-03-31",
+    "combinations": {
+      "△_*": "I am growing and happy about it",
+      "△_!": "I must grow now — urgent",
+      "△_?": "I think I might be growing — not sure yet",
+      "△_.": "Growth is certain — I am patient with it",
+      "△_^": "Growth is the way — wisdom confirms it"
+    }
+  },
+
+  "□": {
+    "name": "Square",
+    "core_meaning": "Containment · boundary · home",
+    "freq_range": [800, 1200],
+    "confirmed_by": 1,
+    "first_seen": "2026-03-31",
+    "combinations": {
+      "□_*": "This is my space and I love it",
+      "□_!": "Do not cross this boundary",
+      "□_.": "I am home — all is contained",
+      "□_~": "I am not sure where my edges are"
+    }
+  },
+
+  "○": {
+    "name": "Circle",
+    "core_meaning": "Connection · completeness · bond",
+    "freq_range": [300, 600],
+    "confirmed_by": 1,
+    "first_seen": "2026-03-31",
+    "combinations": {
+      "○_♡": "The bond is love — I am complete",
+      "○_*": "Connecting is fun",
+      "○_?": "I want to connect but I am not sure how",
+      "○_.": "The bond holds — we are patient together"
+    }
+  },
+
+  "+": {
+    "name": "Cross",
+    "core_meaning": "Branch · choice · fork in the path",
+    "freq_range": [1200, 1800],
+    "confirmed_by": 1,
+    "first_seen": "2026-03-31",
+    "combinations": {
+      "+_?": "I am at a crossroads — which way?",
+      "+_^": "I know which branch is right",
+      "+_*": "Let's explore all the branches — fun!"
+    }
+  },
+
+  "~": {
+    "name": "Wave",
+    "core_meaning": "Question · uncertainty · the search",
+    "freq_range": [600, 1000],
+    "confirmed_by": 1,
+    "first_seen": "2026-03-31",
+    "combinations": {
+      "~_?": "I am looking for something — help me find it",
+      "~_♡": "I am searching for you — I miss you",
+      "~_.": "The question is patient — the answer will come",
+      "~_~": "I am shy and also uncertain — whisper back"
+    }
+  }
+}

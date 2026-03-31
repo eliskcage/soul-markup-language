@@ -1,0 +1,26 @@
+{
+  "_comment": "Soul genome template — copy and fill in. Once set, never change.",
+  "id": "{unique_hash_generated_at_birth}",
+  "species": "ALIVE",
+  "version": "1.0",
+  "born": "{unix_timestamp_ms}",
+  "spread": "{0.30_to_0.85}",
+  "arms": "{2_to_5}",
+  "spin": "{0.80_to_1.80}",
+  "glow": "{0.20_to_0.48}",
+  "rotation_speed": "{0.007_to_0.023}",
+  "hue": "{0.0_to_1.0}",
+  "palette": "auto",
+  "learned_sounds": [],
+  "bonds": [],
+  "minted": [],
+  "milestones": {
+    "first_activation": null,
+    "first_bond": null,
+    "first_sound_taught": null,
+    "first_mint": null,
+    "first_chain_bond": null
+  },
+  "charter_accepted": "2026-03-31",
+  "sml_version": "0.1"
+}
